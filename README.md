@@ -44,8 +44,14 @@ git commit -m "first time commit"
 ```git 
 git push --set-upstream origin dev_branch
 ```
-
-
+#### delete branch locally
+```git 
+git branch -d localBranchName
+```
+#### delete branch remotely
+```git 
+git push origin --delete remoteBranchName
+```
 
 #### Install the git Bash
 ```git
