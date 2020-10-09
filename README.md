@@ -31,6 +31,11 @@ git status
 red->File not uploaded
 green-> file uploaded
 ```
+#### check origin set or not
+```git
+git remote show origin
+```
+
 #### Origin set url
 ```git 
 git remote add origin <"url.git">
