@@ -1,12 +1,16 @@
 # Git Tutorial
 
-__clone data from another branch__<br>
+#### clone data from another branch
 ```git
 git clone --branch <branch_name> <url.git>
 ```
-__Creat branch and chekout__<br>
+#### Creat branch and chekout
 ```git
 git checkout -b <branch_name>
+```
+#### Origin set url
+```git 
+git remote add origin <"url.git">
 ```
 
 
