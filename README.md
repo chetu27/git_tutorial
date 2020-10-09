@@ -1,5 +1,8 @@
 # Git Tutorial
 
+1. git clone --branch <branch_name> <url.git>
+
+
 #### Install the git Bash
 ```git
 git init                                      //git initialize karne ke liye
