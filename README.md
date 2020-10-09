@@ -4,14 +4,47 @@
 ```git
 git clone --branch <branch_name> <url.git>
 ```
-#### Creat branch and chekout
+#### Create branch
+```git 
+git branch <branch_name>
+```
+#### Checkout branch
+```git
+git checkout <branch_name>
+```
+#### Creat branch and checkout
 ```git
 git checkout -b <branch_name>
+```
+#### Show all branch
+```git
+git branch --list
+git show-branch
+```
+#### how to active branch
+```git
+git branch
+```
+#### Status Check
+```git 
+git status
+red->File not uploaded
+green-> file uploaded
 ```
 #### Origin set url
 ```git 
 git remote add origin <"url.git">
 ```
+
+#### Commit Data
+```git 
+git commit -m "first time commit"
+```
+#### Push Data
+```git 
+git push --set-upstream origin dev_branch
+```
+
 
 
 #### Install the git Bash
