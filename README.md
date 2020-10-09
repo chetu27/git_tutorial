@@ -1,6 +1,13 @@
 # Git Tutorial
 
-1. git clone --branch <branch_name> <url.git>
+__clone data from another branch__<br>
+```git
+git clone --branch <branch_name> <url.git>
+```
+__Creat branch and chekout__<br>
+```git
+git checkout -b <branch_name>
+```
 
 
 #### Install the git Bash
